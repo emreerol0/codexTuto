@@ -36,6 +36,8 @@ Press Enter to use the default output:
 
 `dist\WordToPdfConverter.exe`
 
+If build dependencies for `win32com` are missed, the script now adds the required hidden imports and searches both the chosen output folder and the default `dist` folder before reporting failure.
+
 ## Usage
 
 1. Click **Add Files** or **Add Folder**.
