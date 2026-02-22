@@ -34,6 +34,7 @@ for /f "delims=" %%F in ('dir /b /s "%OUTPUT_DIR%\WordToPdfConverter*.exe" 2^>nu
     set "EXE_PATH=%%F"
     goto :build_success
 )
+goto :eof
 
 for /f "delims=" %%F in ('dir /b /s "%SCRIPT_DIR%dist\WordToPdfConverter*.exe" 2^>nul') do (
     set "EXE_PATH=%%F"
