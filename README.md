@@ -31,7 +31,8 @@ Run:
 build_exe.bat
 ```
 
-Output executable:
+The script prompts for an output folder (for example your Downloads folder).
+Press Enter to use the default output:
 
 `dist\WordToPdfConverter.exe`
 
